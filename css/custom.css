@@ -1,5 +1,5 @@
 /* Tausta */
-.koneisto {
+/*.koneisto {
 	position: fixed;
 	z-index: -1;
 	height: 100%;
@@ -8,6 +8,16 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: top right;
+}*/
+.koneisto {
+	position: fixed;
+	z-index: -1;
+	max-height: 100%;
+	right: 0;
+	top: 0;
+}
+.koneisto img {
+	max-height: 100%;
 }
 
 /* Header */
