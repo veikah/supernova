@@ -1,5 +1,9 @@
-.btn-lippukauppa {
-	color: white;
+.btn-lippukauppa, .btn-lippukauppa:hover {
+	color: #330000;
 	background: none;
 	font-size: 20pt;
+	border-color: #330000;
+}
+.btn-lippukauppa:hover {
+	background-color: #DEDEDE;
 }
