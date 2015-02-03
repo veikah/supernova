@@ -3,3 +3,22 @@
 	background: none;
 	font-size: 20pt;
 }
+
+/* FOOTER */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 200px; /* TODO change pixels */
+  background-color: #f5f5f5;
+}
+
+.kumppanit{
+	text-align: center;
+}
+
+.kumppanit img{
+	padding: 20px;
+}
