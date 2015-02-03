@@ -1,7 +1,14 @@
-.btn-lippukauppa {
-	color: white;
+/* Lippukauppa -button */
+
+.btn-lippukauppa, .btn-lippukauppa:hover {
+	color: #330000;
 	background: none;
 	font-size: 20pt;
+	border-color: #330000;
+}
+
+.btn-lippukauppa:hover {
+	background-color: #DEDEDE;
 }
 
 /* FOOTER */
@@ -21,4 +28,5 @@ footer {
 
 .kumppanit img{
 	padding: 20px;
+	
 }
