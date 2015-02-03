@@ -1,5 +1,9 @@
-/* Lippukauppa -button */
+/* Header */
+#logo-container {
+	padding: 20px;
+}
 
+/* Lippukauppa-button */
 .btn-lippukauppa, .btn-lippukauppa:hover {
 	color: #330000;
 	background: none;
@@ -12,7 +16,6 @@
 }
 
 /* FOOTER */
-
 footer {
   position: absolute;
   bottom: 0;
