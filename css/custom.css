@@ -1,3 +1,8 @@
+/* -----HEADER----- */
+#logo-container {
+	padding: 20px;
+}
+/* -----TICKET BUTTON----- */
 .btn-lippukauppa, .btn-lippukauppa:hover {
 	color: #330000;
 	background: none;
