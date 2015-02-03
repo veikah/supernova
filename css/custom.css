@@ -1,3 +1,15 @@
+/* Tausta */
+.koneisto {
+	position: fixed;
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+	background: url('../img/koneisto_1080.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top right;
+}
+
 /* Header */
 #logo-container {
 	padding: 20px;
