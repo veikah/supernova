@@ -4,23 +4,32 @@ html{
 }
 
 body{
-	margin-top: 30px;
+	margin-top: 80px;
 	/* Margin bottom by footer height */
 	margin-bottom: 250px;
 }
 
+h1{
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+h3{
+	text-align: center;
+}
 
 /* Navbar */
 
-.navbar {
+/*.navbar {
     border-radius: 0px;
     font-size: 24px;
-}
+}*/
 
-.navbar-default{
+/*.navbar-default{
 	background-color: inherit;
 	border-style: none;
-}
+}*/
 
 /* Tausta */
 /*.koneisto {
@@ -33,7 +42,7 @@ body{
 	background-attachment: fixed;
 	background-position: top right;
 }*/
-.koneisto {
+/*.koneisto {
 	position: fixed;
 	z-index: -1;
 	max-height: 100%;
@@ -42,7 +51,7 @@ body{
 }
 .koneisto img {
 	max-height: 100%;
-}
+}*/
 
 /* Header */
 #logo-container {
@@ -51,15 +60,46 @@ body{
 
 /* Lippukauppa-button */
 .btn-lippukauppa, .btn-lippukauppa:hover {
-	color: #330000;
+/*	color: #330000;
 	background: none;
 	font-size: 20pt;
-	border-color: #330000;
+	border-color: #330000;*/
 }
 
 .btn-lippukauppa:hover {
-	background-color: #DEDEDE;
+/*	background-color: #DEDEDE;*/
 }
+
+/*Tekijat*/
+.tekijat{
+	text-align: center;
+}
+
+.tekijat ul{
+	padding-left: 0;
+}
+@media (min-width: 400px) {
+	.tekijat {
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
+	}
+}
+@media (min-width: 768px) {
+	.tekijat {
+		-webkit-column-count: 3;
+		-moz-column-count: 3;
+		column-count: 3;
+	}
+}
+@media (min-width: 1170px) {
+	.tekijat{
+		-webkit-column-count: 4;
+		-moz-column-count: 4;
+		column-count: 4;	
+	}
+}
+
 
 /* FOOTER */
 footer {
