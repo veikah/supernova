@@ -21,9 +21,12 @@ h3{
 
 /* Navbar */
 
-/*.navbar {
-    border-radius: 0px;
-    font-size: 24px;
+.navbar-nav>li>a {
+    padding: 30px;
+}
+
+/*.navbar-nav:first-child{
+	margin-left: -30px;
 }*/
 
 /*.navbar-default{
@@ -54,8 +57,9 @@ h3{
 }*/
 
 /* Header */
+
 #logo-container {
-	padding: 20px;
+	padding: 5%;
 }
 
 /* Lippukauppa-button */
