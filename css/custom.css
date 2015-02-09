@@ -5,6 +5,7 @@ html{
 
 body{
 	margin-top: 80px;
+	position: relative;
 }
 
 h1{
