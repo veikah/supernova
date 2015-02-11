@@ -106,7 +106,15 @@ h3{
 /*	background-color: #DEDEDE;*/
 }
 
+/* Hahmot */
 
+.character-info {
+	padding-top: 10%;
+}
+
+.character-img {
+	max-width: 100%;
+}
 
 /*Tekijat*/
 
