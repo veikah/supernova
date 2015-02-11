@@ -18,6 +18,21 @@ h3{
 	text-align: center;
 }
 
+/* Yleiset */
+
+.bg-red {
+	background: #330000;
+	color: white;
+}
+
+.container {
+	padding-bottom: 5%;
+}
+
+.no-pad-bottom {
+	padding-bottom: 0;
+}
+
 /* Navbar */
 
 .navbar-nav>li>a {
@@ -75,10 +90,8 @@ h3{
 }
 
 .supernova-box {
-	color: white;
 	padding-top: 5%;
-	padding-bottom: 5%;
-	background: #330000;
+	/*padding-bottom: 5%;*/
 }
 
 /* Lippukauppa-button */
@@ -99,7 +112,7 @@ h3{
 
 .credit-box{
 	background-color: #f5f5f5;
-	padding-bottom: 50px;
+	/*padding-bottom: 50px;*/
 
 }
 
