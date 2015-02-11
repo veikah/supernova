@@ -57,8 +57,28 @@ h3{
 
 /* Header */
 
+.logo-box {
+	background: url('../img/halkeilu.png');
+}
+
+#logo-background {
+	background: url('../img/halkeilu.png');
+	width: 100%;
+	height: 400px;
+	position: absolute;
+	z-index: -1;
+}
+
 #logo-container {
-	padding: 5%;
+	padding: 10% 5% 10% 5%;
+
+}
+
+.supernova-box {
+	color: white;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background: #330000;
 }
 
 /* Lippukauppa-button */
