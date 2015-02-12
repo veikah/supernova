@@ -20,6 +20,10 @@ h3{
 
 /* Yleiset */
 
+iframe{
+	border-style: none;
+}
+
 .bg-red {
 	background: #330000;
 	color: white;
