@@ -4,7 +4,7 @@ html{
 }
 
 body{
-	margin-top: 80px;
+	/*margin-top: 80px;*/
 	position: relative;
 }
 
@@ -37,47 +37,41 @@ iframe{
 	padding-bottom: 0;
 }
 
+.btn-danger{
+	background-color: #640101;
+	border-color: #640101;
+}
+
+.btn-danger:hover{
+	background-color: #330000;
+	border-color: 640101;
+}
+
 /* Navbar */
 
 .navbar-nav>li>a {
     padding: 30px;
 }
 
-/*.navbar-nav:first-child{
-	margin-left: -30px;
-}*/
-
-/*.navbar-default{
-	background-color: inherit;
-	border-style: none;
-}*/
-
-/* Tausta */
-/*.koneisto {
-	position: fixed;
-	z-index: -1;
-	height: 100%;
-	width: 100%;
-	background: url('../img/koneisto_1080.png');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: top right;
-}*/
-/*.koneisto {
-	position: fixed;
-	z-index: -1;
-	max-height: 100%;
-	right: 0;
-	top: 0;
+.nav-lippukauppa-button{
+	margin-top: 25px;
 }
-.koneisto img {
-	max-height: 100%;
-}*/
+
+.navbar-fixed-top .navbar-collapse{
+	max-height: 500px;
+}
+
+@media(max-width: 767px){
+	.nav-lippukauppa-button{
+		margin: 0 25px 15px 25px;
+	}
+}
 
 /* Header */
 
 .logo-box {
 	background: url('../img/halkeilu.png');
+	height: 100vh;
 }
 
 #logo-background {
@@ -89,7 +83,7 @@ iframe{
 }
 
 #logo-container {
-	padding: 10% 5% 5% 5%;
+	padding: 40vh 5% 5% 5%;
 
 }
 
@@ -165,7 +159,7 @@ iframe{
 	
 }
 
-.kumppanit{
+.kumppanit	{
 	text-align: center;
 }
 
