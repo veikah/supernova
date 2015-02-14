@@ -29,6 +29,10 @@ iframe{
 	color: white;
 }
 
+.bg-trans-white {
+	background-color: rgba(255,255,255,0.1);
+}
+
 .container {
 	padding-bottom: 5%;
 }
@@ -173,6 +177,13 @@ iframe{
 }
 
 /* Hahmot */
+
+.character-box {
+	/*
+	background-image: url('../img/space_cont_dim.png');
+	color: white;
+	*/
+}
 
 .character-info {
 	padding-top: 10%;
