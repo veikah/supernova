@@ -143,9 +143,15 @@ iframe{
 .supernova-box {
 	padding-top: 5%;
 	background-image: url('../img/koneisto_white_land_trans.png');
-	background-position: left top;
+	background-position: top center;
 	background-repeat: no-repeat;
-	background-size: 100% auto;
+	background-size: 100% auto; /* Fit to width */
+}
+
+@media only screen and (max-width: 991px) {
+	.supernova-box {
+		background-size: auto 100%; /* Fit to height */
+	}
 }
 
 .trans-bg {
