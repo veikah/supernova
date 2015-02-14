@@ -78,6 +78,13 @@ iframe{
 	height: 100vh;
 }
 
+@media only screen and (max-width: 768px) {
+	.logo-box {
+		background: url('../img/halkeilu_sq_800.png');
+		background-size: 100% auto; /* Fit to width */
+	}
+}
+
 #logo-background {
 	background: url('../img/halkeilu.png');
 	width: 100%;
