@@ -172,6 +172,7 @@ iframe{
 
 .kumppanit img{
 	padding: 30px 40px;
+	max-width: 100%;
 	
 }
 
