@@ -116,17 +116,28 @@ iframe{
  	animation-delay: 0.5s;
 }
 
+/* Ei animoida kännyköillä ja tableteilla logoa. Pätkii kuitenkin. */
 #logo {
-	-webkit-animation-duration: 1s;
-  	-webkit-animation-delay: 0s;
-	-moz-animation-duration: 1s;
-  	-moz-animation-delay: 0s;
-	-ms-animation-duration: 1s;
-  	-ms-animation-delay: 0s;
-	-o-animation-duration: 1s;
-  	-o-animation-delay: 0s;
- 	animation-duration: 1s;
- 	animation-delay: 0s;
+	-webkit-animation-duration: 0;
+	-moz-animation-duration: 0;
+	-ms-animation-duration: 0;
+	-o-animation-duration: 0;
+ 	animation-duration: 0;
+}
+
+@media only screen and (min-width: 768px) {
+	#logo {
+		-webkit-animation-duration: 1s;
+	  	-webkit-animation-delay: 0s;
+		-moz-animation-duration: 1s;
+	  	-moz-animation-delay: 0s;
+		-ms-animation-duration: 1s;
+	  	-ms-animation-delay: 0s;
+		-o-animation-duration: 1s;
+	  	-o-animation-delay: 0s;
+	 	animation-duration: 1s;
+	 	animation-delay: 0s;
+	}
 }
 
 .supernova-box {
