@@ -13,7 +13,7 @@
 /* CONFIG ----------------------------------------------------------------------------------------------------------- */
 
 //$resolutions   = array(1382, 992, 768, 480); // the resolution break-points to use (screen widths, in pixels)
-$resolutions   = array(768);
+$resolutions   = array(768, 480);
 $cache_path    = "ai-cache"; // where to store the generated re-sized images. Specify from your document root!
 $jpg_quality   = 90; // the quality of any generated JPGs on a scale of 0 to 100
 $sharpen       = TRUE; // Shrinking images can blur details, perform a sharpen on re-scaled images?
