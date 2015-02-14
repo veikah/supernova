@@ -25,7 +25,7 @@ iframe{
 }
 
 .bg-red {
-	background: #330000;
+	background-color: #330000;
 	color: white;
 }
 
@@ -142,7 +142,14 @@ iframe{
 
 .supernova-box {
 	padding-top: 5%;
-	/*padding-bottom: 5%;*/
+	background-image: url('../img/koneisto_white_land_trans.png');
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.trans-bg {
+	background-color: rgba(51,0,0,0.6);
 }
 
 /* Lippukauppa-button */
