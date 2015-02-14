@@ -84,7 +84,19 @@ iframe{
 
 #logo-container {
 	padding: 40vh 5% 5% 5%;
+}
 
+.landing-arrow {
+	margin-top: 8%;
+	font-size: 30pt;
+}
+
+.landing-arrow a {
+	color: #640101;
+}
+
+.landing-arrow a:hover {
+	color: #330000;
 }
 
 .supernova-box {
