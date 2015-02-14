@@ -86,6 +86,10 @@ iframe{
 	padding: 40vh 5% 5% 5%;
 }
 
+.arrow-caption {
+	font-size: 12pt;
+}
+
 .landing-arrow {
 	margin-top: 8%;
 	font-size: 30pt;
