@@ -58,7 +58,7 @@ iframe{
 }
 
 .nav-lippukauppa-button{
-	margin-top: 25px;
+	margin-top: 23px;
 }
 
 .navbar-fixed-top .navbar-collapse{
@@ -69,6 +69,11 @@ iframe{
 	.nav-lippukauppa-button{
 		margin: 0 25px 15px 25px;
 	}
+}
+
+.nav-lippukauppa-link {
+	padding: 0 !important;
+	margin: 0 !important;
 }
 
 /* Header */
