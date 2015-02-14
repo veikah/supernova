@@ -33,6 +33,20 @@ iframe{
 	background-color: rgba(255,255,255,0.1);
 }
 
+.bg-cogs {
+	background-image: url('../img/koneisto_white_land_trans.png');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: 100% auto; /* Fit to width */
+}
+
+@media only screen and (max-width: 991px) {
+	.bg-cogs {
+		background-size: auto 100%; /* Fit to height */
+	}
+}
+
+
 .container {
 	padding-bottom: 5%;
 }
