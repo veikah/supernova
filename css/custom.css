@@ -156,6 +156,13 @@ iframe{
 	max-width: 100%;
 }
 
+/* Puhelimet */
+@media only screen and (max-width: 767px) {
+    .character-img {
+		width: 200px;
+	}
+}
+
 /*Tekijat*/
 
 .credit-box{
