@@ -106,7 +106,7 @@ iframe{
 	font-size: 40pt;
 }
 
-.landing-arrow a {
+.landing-arrow a, a:active {
 	color: #640101;
 }
 
@@ -255,6 +255,10 @@ iframe{
 
 .kumppanit	{
 	text-align: center;
+}
+
+.kumppanit h3 {
+	margin-top: 80px;
 }
 
 /* FOOTER */
