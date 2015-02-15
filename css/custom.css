@@ -100,6 +100,7 @@ iframe{
 .navbar-nav>li>a {
     padding: 30px;
     font-family: 'Orbitron', sans-serif;
+    padding-top: 2.2em;
 }
 
 .nav-lippukauppa-button{
@@ -109,7 +110,6 @@ iframe{
 .navbar-fixed-top .navbar-collapse{
 	max-height: 500px;
 }
-
 
 @media(max-width: 767px){
 	.nav-lippukauppa-button{
@@ -121,6 +121,12 @@ iframe{
 		font-size: 12px;
 		margin: 26px 0px 10px 00px;
 		padding: 6px 8px;
+	}
+	.navbar-nav {
+		font-size: 12px;
+	}
+	.navbar-nav>li>a {
+		padding-top: 2.7em;
 	}
 }
 
