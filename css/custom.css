@@ -97,6 +97,7 @@ iframe{
 	max-height: 500px;
 }
 
+
 @media(max-width: 767px){
 	.nav-lippukauppa-button{
 		margin: 0 25px 15px 25px;
@@ -229,12 +230,6 @@ iframe{
 
 /* Hahmot */
 
-.character-box {
-	/*
-	background-image: url('../img/space_cont_dim.png');
-	color: white;
-	*/
-}
 
 .character-info {
 	padding-top: 10%;
@@ -242,6 +237,26 @@ iframe{
 
 .character-img {
 	max-width: 100%;
+}
+
+#hahmot{
+	text-align: left;
+}
+
+
+#hahmot .char-right{
+	text-align: right;
+}
+
+@media(max-width: 991px){
+	#hahmot, #hahmot .char-right{
+		text-align: center;
+	}
+
+	.character-info{
+		padding-top: 0;
+		padding-bottom: 10%
+	}
 }
 
 /* Puhelimet */
