@@ -1,3 +1,11 @@
+h1, h2, h3 {
+	font-family: 'Orbitron', sans-serif;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
 html{
 	position: relative;
 	min-height: 100%;
@@ -87,6 +95,7 @@ iframe{
 
 .navbar-nav>li>a {
     padding: 30px;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .nav-lippukauppa-button{
