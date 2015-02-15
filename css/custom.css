@@ -6,6 +6,7 @@ html{
 body{
 	/*margin-top: 80px;*/
 	position: relative;
+	font-size: 16px;
 }
 
 h1{
@@ -50,6 +51,23 @@ iframe{
 .container {
 	padding-bottom: 5%;
 }
+
+#supernova .container{
+	padding-bottom: 1%;
+}
+
+.supernova-ostalippuja{
+	padding-top: 40px;
+}
+
+#yhdistys{
+	font-size: 16px;
+}
+
+#tekijat{
+	font-size: 12px;
+}
+
 
 .no-pad-bottom {
 	padding-bottom: 0;
